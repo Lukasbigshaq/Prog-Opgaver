@@ -8,36 +8,23 @@ body {
 
 main {
   margin-top: 50px;
+  padding:10vh;
 }
 
-#quiz-container {
-  display: inline-block;
-  text-align: left;
-  background: #ffffff;
-  padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 10px;
+#questionDiv{
+  border: 1px solid pink;
+  border-radius: 2rem;
+  padding:2rem;
+  font-size: 3rem;
+
+
 }
 
-button {
-  display: block;
-  width: 100%;
-  margin: 10px 0;
-  padding: 10px;
-  font-size: 16px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  cursor: pointer;
+
+.correct{
+  background-color: lightgreen;
 }
 
-button:hover {
-  background-color: #e0e0e0;
-}
-
-button.correct {
-  background-color: #c8e6c9;
-}
-
-button.incorrect {
-  background-color: #ffcdd2;
+.wrong{
+  background-color: lightcoral;
 }
