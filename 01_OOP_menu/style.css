@@ -1,0 +1,62 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.page{
+    position:fixed;
+    top:0;
+    left:-100vw;
+    width:100vw;
+    height: 100vh;
+    padding:12rem;
+    overflow:hidden;
+    display:grid;
+    place-items:center;
+    transition: 0.3s 0.3s all ease-in-out;
+}
+
+#time {
+    font-size:10rem;
+}
+
+canvas{
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:2;
+}
+button {
+    z-index:3;
+    border-radius:50%;
+    font-size:4rem;
+}
+
+.visible{
+    left:0;
+    transition: 0.3s all ease-in-out;
+}
+
+#page1{
+    background-color: black;
+}
+
+#page2{
+    background-color: green;
+}
+#page3{
+    background-color: blue;
+}
+#page4{
+    background-color: red;
+}
+#page5{
+    background-color: khaki;
+}
+
+h1{
+    font-family: Arial;
+    color:white;
+    font-weight: bolder;
+}
